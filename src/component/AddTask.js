@@ -25,7 +25,7 @@ onChange={(e) => setText(e.target.value)}
 </div>
 <div className='form-control'>
 <label>Day & Time</label> <input
-type='text'
+type='datetime'
 placeholder='Add Day & Time' value={day}
 onChange={(e) => setDay(e.target.value)}
 />
